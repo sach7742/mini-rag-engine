@@ -50,47 +50,46 @@ A zero-framework, local Retrieval-Augmented Generation (RAG) pipeline built from
 ### Prerequisites
 
 * Python 3.9+
-* [Ollama](https://www.google.com/search?q=https://ollama.com/) running locally
+* [Ollama](https://ollama.com/) running locally
 
 ### Setup & Installation
 
 1. **Clone repository**:
+
 ```bash
 git clone [https://github.com/sach7742/mini-rag-engine.git](https://github.com/sach7742/mini-rag-engine.git)
 cd mini-rag-engine
 
 ```
 
-
 2. **Initialize virtual environment**:
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 
 ```
 
-
 3. **Install dependencies**:
+
 ```bash
 pip install -r requirements.txt
 
 ```
 
-
 4. **Pull local model**:
+
 ```bash
 ollama pull llama3.2
 
 ```
 
-
 5. **Run interactive RAG CLI**:
+
 ```bash
 python main.py
 
 ```
-
-
 
 ---
 
@@ -126,5 +125,6 @@ The Institute of Technologists is located in Saitama, Japan.
 * **Zero Framework Abstraction**: Direct mathematical vector operations without relying on third-party orchestration libraries.
 * **100% Offline & Private**: Runs vector embeddings and LLM inference locally on Apple Silicon without third-party API dependencies or cloud costs.
 
+```
 
-
+---
